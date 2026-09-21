@@ -1,0 +1,41 @@
+{
+  "total_tweets_used": 10204,
+  "candidates": {
+    "Donald Trump": 5426,
+    "Joe Biden": 4778
+  },
+  "sentiment_distribution_overall": {
+    "Negative": 3759,
+    "Positive": 3347,
+    "Neutral": 3098
+  },
+  "sentiment_by_candidate_pct": {
+    "Positive": {
+      "Donald Trump": 31.44,
+      "Joe Biden": 34.34
+    },
+    "Neutral": {
+      "Donald Trump": 27.92,
+      "Joe Biden": 33.13
+    },
+    "Negative": {
+      "Donald Trump": 40.64,
+      "Joe Biden": 32.52
+    }
+  },
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 0.8143,
+      "f1_macro": 0.8142
+    },
+    "Naive Bayes": {
+      "accuracy": 0.7575,
+      "f1_macro": 0.7552
+    },
+    "SVM (Linear)": {
+      "accuracy": 0.8182,
+      "f1_macro": 0.8184
+    }
+  },
+  "best_model": "SVM (Linear)"
+}
